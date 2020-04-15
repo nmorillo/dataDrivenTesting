@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[La prueba esta Ok]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24095" started-at="2020-04-15T15:18:18 ART" finished-at="2020-04-15T15:18:42 ART">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24095" started-at="2020-04-15T15:18:18 ART" finished-at="2020-04-15T15:18:42 ART">
+      <class name="searchFromData.SearchTest">
+        <test-method status="PASS" signature="BoforeAll()[pri:0, instance:searchFromData.SearchTest@57855c9a]" name="BoforeAll" is-config="true" duration-ms="20" started-at="2020-04-15T15:18:18 ART" finished-at="2020-04-15T15:18:18 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BoforeAll -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:searchFromData.SearchTest@57855c9a]" name="setUp" is-config="true" duration-ms="18932" started-at="2020-04-15T15:18:18 ART" finished-at="2020-04-15T15:18:37 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchAndWriteData()[pri:0, instance:searchFromData.SearchTest@57855c9a]" name="searchAndWriteData" duration-ms="3899" started-at="2020-04-15T15:18:37 ART" description="Pruebas manejadas por datos" finished-at="2020-04-15T15:18:41 ART">
+          <reporter-output>
+            <line>
+              <![CDATA[La prueba esta Ok]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchAndWriteData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:searchFromData.SearchTest@57855c9a]" name="tearDown" is-config="true" duration-ms="1169" started-at="2020-04-15T15:18:41 ART" finished-at="2020-04-15T15:18:42 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndWriteData status=SUCCESS method=SearchTest.searchAndWriteData()[pri:0, instance:searchFromData.SearchTest@57855c9a] output=La prueba esta Ok]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="arterAll()[pri:0, instance:searchFromData.SearchTest@57855c9a]" name="arterAll" is-config="true" duration-ms="1" started-at="2020-04-15T15:18:42 ART" finished-at="2020-04-15T15:18:42 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arterAll -->
+      </class> <!-- searchFromData.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
